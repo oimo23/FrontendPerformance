@@ -1,0 +1,28 @@
+{
+  "name": "empty-project-sass",
+  "version": "1.0.0",
+  "description": "The greatest company ever created",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "build-dev": "webpack -d --mode development",
+    "build-prod": "webpack -p --mode production"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^2.1.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^3.0.1",
+    "image-webpack-loader": "^4.6.0",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "svg-url-loader": "^2.3.2",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1"
+  }
+}
